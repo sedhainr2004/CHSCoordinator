@@ -89,6 +89,20 @@ public class HomePage extends Fragment {
             }
         });
         btnECs =  view.findViewById(R.id.btnECs);
+        btnECs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Extracurriculars extracurriculars = new Extracurriculars();
+
+                // Replace current fragment with Absences fragment
+                FragmentManager fragmentManager = getParentFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.frame_layout, extracurriculars);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+
+            }
+        });
         return view;
     }
 }
