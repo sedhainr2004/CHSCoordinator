@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "998774655872",
+    "project_id": "fbla-mobile-app-23",
+    "storage_bucket": "fbla-mobile-app-23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998774655872:android:d2320ab0c6c53f6b524f65",
+        "android_client_info": {
+          "package_name": "com.example.chs_coordinator2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998774655872-acof5j1ees736b7uokvru9b7aia90c65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_QEMWEhnaSg19k-_8qmfDTDuC1ylA2Xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998774655872-acof5j1ees736b7uokvru9b7aia90c65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

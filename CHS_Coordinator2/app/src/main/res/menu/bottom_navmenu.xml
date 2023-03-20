@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/menuHome"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="Calendar"
+        android:id="@+id/menuCalendar"
+        android:icon="@drawable/baseline_calendar_month_24"/>
+    <item android:title="Share Photos"
+        android:id="@+id/menuSharePhotos"
+        android:icon="@drawable/baseline_add_photo_alternate_24"/>
+    <item android:title="Schedule"
+        android:id="@+id/menuSchedule"
+        android:icon="@drawable/baseline_schedule_24"/>
+    <item android:title="Logout"
+        android:id="@+id/menuLogout"
+        android:icon="@drawable/baseline_logout_24"/>
+</menu>
