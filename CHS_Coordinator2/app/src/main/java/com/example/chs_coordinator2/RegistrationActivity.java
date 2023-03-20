@@ -54,6 +54,12 @@ public class RegistrationActivity extends AppCompatActivity {
         password = findViewById(R.id.edTxtPassword);
         email = findViewById(R.id.edtTextEmail);
         btnBack = findViewById(R.id.floatingActionBtnBack);
+        btnBack.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(RegistrationActivity.this, MainActivity.class));
+            }
+        });
 
         btnRegister = findViewById(R.id.registrationButton);
         btnRegister.setOnClickListener(new View.OnClickListener() {
